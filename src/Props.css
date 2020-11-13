@@ -1,0 +1,102 @@
+body{
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{margin: 0px; font-weight: normal;}
+
+.fixed{position: fixed;}
+.rel{position: relative;}
+.abs{position: absolute;}
+.sticky{position: sticky;}
+input, button, select, textarea{outline: none;}
+.bl{display: block;}
+.ibl{display: inline-block;}
+
+.flex{display: flex;}
+.aic{align-items: center;}
+button{cursor: pointer;}
+
+.font{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.fontl{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.fontb{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.b{font-weight: bold;}
+.s12{font-size: 12px;}
+
+.s13{font-size: 13px;}
+.s14{font-size: 14px;}
+.s15{font-size: 15px;}
+.s16{font-size: 16px;}
+.s18{font-size: 18px;}
+.s20{font-size: 20px;}
+.s22{font-size: 22px;}
+
+.s24{font-size: 24px;}
+.s30{font-size: 30px;}
+
+
+.noul{text-decoration: none;}
+.noulh:hover{text-decoration: underline;}
+
+.cfff{color: #ffffff;}
+
+
+.anim{transition: all 0.2s linear 0s;}
+.placeholder{
+    background: #ccc;
+    animation: placeholde  is linear infinite ;
+}
+
+@keyframes placeholder{
+    /* 0%{opacity: 0.5;} */
+    50%{opacity: 0.5;}
+}
+
+
+.hnav .view-cayes:hover{
+    background: #ffffff;
+}
+
+.hnav-page{
+    margin-right: 0px 18%;
+}
+
+.home-a{
+    padding:  15px;
+    margin-right: 2px;
+}
+.ad-item{
+    width: 288px;
+height: 266px;
+}
+.ad-item .poster{
+    height: 100px;
+}
+.ad-item .poster.placeholder{}
+.ad-item .title{}
+.ad-item .title.placeholder{}
+.ad-item .tagline{}
+.ad-item .tagline.placeholder{}
+.ad-item .ftr{}
+.ad-item .ftr .location{}
+.ad-item .ftr .location .placeholder{}
+.ad-item .ftr .stamp{}
+.ad-item .ftr .stamp.placeholder{}
+
+
+
+
+
+
+
+
+
+
